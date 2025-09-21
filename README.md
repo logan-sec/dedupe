@@ -38,3 +38,20 @@ Run **dedupe** with one or more `.txt` files containing subdomains:
 
 ```bash
 python3 dedupe.py [options] file1.txt file2.txt ...
+
+```
+
+## 🗺️ Planned Features / Roadmap
+
+Here’s what’s on the horizon for **dedupe**:
+
+- [ ] Add support for reading from directories (auto-merge all `.txt` files in a folder)  
+- [ ] Optional JSON output for easier integration with other tools  
+- [ ] Parallel DNS/IP resolution for faster collapsing  
+- [ ] IPv6 resolution support  
+- [ ] Rate-limiting controls to avoid overwhelming DNS resolvers or httpx  
+- [ ] More probing options beyond httpx (e.g., curl, custom ports)  
+- [ ] Improved error handling and logging  
+- [ ] Config file support for common workflows  
+
+✅ Tool already works and saves time today — these updates will make it even better.
