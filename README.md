@@ -5,6 +5,13 @@ It removes duplicates, supports optional IP-based collapsing, and can probe for 
 
 ---
 
+## ⚠️ Development Status
+
+**dedupe is fully functional and already speeds up recon workflows,**  
+but it’s still under active development. Expect ongoing improvements, new features, and refinements.  
+
+👉 Contributions, suggestions, and feedback are always welcome!
+
 ## ✨ Features
 - Merge multiple `.txt` files into a single deduplicated list  
 - Normalize hostnames (removes trailing dots, converts to lowercase, etc.)  
